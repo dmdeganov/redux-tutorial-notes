@@ -17,6 +17,9 @@ const store = createStore(reducer, initialStore);
 //NOTE: we create our state or store
 
 function App() {
+  const newData = {
+    name: "James",
+  };
   // cart setup
 
   return (
